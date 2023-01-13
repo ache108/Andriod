@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="This is the menu page"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home Page" />
+
+    <TextView
+        android:id="@+id/pizzaView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Pizza:"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/pizzaView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hawaiian: Pineapple and Ham"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/pizzaView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Supreme: Pepperoni, Pork, Beef, Mushrooms, Peppers, Onions"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/pizzaView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="BBQ Chicken: Chicken, Onion, Cilantro, Gouds, BBQ sauce"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/blankView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/drinkView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Drinks:"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/drinkView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Coke"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/drinkView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Fanta"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/drinkView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Water"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/blankView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/totalView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Order 1 Pizza and 1 Drink totalling $20"
+        android:textSize="18sp" />
+
+</LinearLayout>
